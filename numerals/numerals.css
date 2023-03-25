@@ -38,7 +38,7 @@ button {
 .dark {
     font-size: 100%;
     border-radius: 5px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Garamond', Courier, monospace;
     font-weight: bold;
     width: 100%;
     color: white;
@@ -81,7 +81,7 @@ img{
     background-color: rgb(0,0,0,0.5);
 }
 a {
-    color: #990;
+    color: white;
 }
 a:hover{
     color: yellow;

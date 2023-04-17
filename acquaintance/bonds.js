@@ -22,3 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
         allDraws = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     })
 })
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 

@@ -11,16 +11,17 @@
     <link href="https://fonts.googleapis.com/css?family=Garamond" rel="stylesheet" type="text/css">
 </head>
 <body>
-        <div class="container div-black">
+        <div class="container div-black p-5">
             <div class="row">
                 <div class="col-4 align-self-start">  
                     </div>
-                    <div class="col-4 align-self-center pt-3 pb-3">
+                    <div class="col-4 align-self-end"><br><br>
                         <div class="controls align-items-center text-white">
                             <img id="numerals" class="img-fluid" onclick="playAudio()" type="image" src="cards/card.png" alt="card image">
                             <br><button class="dark"><a class="a-gold" href="https://drive.google.com/file/d/1InfEU4_JSzA1IlhsVgR-xayA9ZUUMG1k/view?usp=share_link" target="_blank" rel="noopener noreferrer">Rules</a></button>
                         </div></div>
-            <div class="col-4 align-self-start">
+            <div class="col-4 align-self-end text-center">
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Fullscreen"><a class="a-gold" href="numerals.html" target="_blank" rel="noopener noreferrer"><h3><i class="bi bi-arrows-fullscreen"></i></h3></a></button>
                     </div>
                 </div></div>
             </div>
@@ -35,7 +36,7 @@
 <script>
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
-    })
+    });
     </script>
 </body>
 </html>

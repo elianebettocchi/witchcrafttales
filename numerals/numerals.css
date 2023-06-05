@@ -82,8 +82,18 @@ img{
 }
 a {
     color: white;
+    
+}
+.a-gold{
+    color: #cc0;
 }
 a:hover{
     color: yellow;
     text-decoration: none;
+}
+.btn{
+    width: 50px;
+    height:40px;
+    margin: 0px;
+	padding: 2px;
 }

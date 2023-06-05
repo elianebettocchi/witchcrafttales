@@ -4,7 +4,7 @@ body {
     text-align: center;
     min-height: 100vh;
     background-color: black;
-    background-image: url(fundo.jpg);
+    background-image: url("https://drive.google.com/uc?export=view&id=1oSaWwmQdrWIhP_MvVq0fxFVACwkD7Snr");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,7 +65,7 @@ button {
     background-color: rgba(153, 153, 0);
 }
 .fundo{
-    background-image: url(../fundo.jpg);
+    background-image: url("https://drive.google.com/uc?export=view&id=1ydHMWW_Wi9veK2j2x2TeNY03fthTbYTI");
     background-repeat: repeat;
     background-position:  center;
     background-attachment: fixed;

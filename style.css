@@ -1,10 +1,10 @@
 body{
-    background-color: black;
-	background-image: url("https://drive.google.com/uc?export=view&id=1ydHMWW_Wi9veK2j2x2TeNY03fthTbYTI");
-	background-repeat: repeat;
-    color: #999;
+    color: #ddd;
     font-family: 'Garamond', Times New Roman, Times, serif;
 	font-size: 20px;
+}
+.logo{
+    width: 40px;
 }
 .a-gold{
     color: #cc0;
@@ -21,6 +21,9 @@ body{
 .a-grey{
     color: white;
 }
+.a-black{
+    color: black;
+}
 a:hover{
     color: yellow;
     text-decoration: none;
@@ -32,10 +35,19 @@ a:hover{
     padding: 5px;
     border-color: white;
 }
+.dark {
+    font-size: 100%;
+    border-radius: 5px;
+    font-family: 'Garamond', Courier, monospace;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    border: white 1px solid;
+    background-color: rgb(0,0,0,0.5);
+}
 .btn{
-    width: 30px;
+    width: auto;
     margin: 2px;
-	padding: 2px;
 }
 .nav-pills{
     background-color: #333;
@@ -52,10 +64,38 @@ a:hover{
 .div-black-transparent{
 	background-color: rgb(0,0,0,0.7);
 }
+.transparent{
+	background-color: rgb(0,0,0,0);
+}
 .div-painting{
 	background-image: url("https://drive.google.com/uc?export=view&id=1zGo3LePfP_d5dBMly5fA8AO5FhtkRPtS");
 	background-size: cover;
 }
 hr{
     color: #999;
+}
+.fundo{
+    background-image: url("./img/fundo.jpg");
+	background-repeat: repeat;
+}
+.folderdown{
+    background-image: url("./img/folderdown.jpg");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.folderup{
+    background-image: url("./img/folderup.jpg");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.folder{
+    background-image: url("./img/folder.jpg");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: scroll;
+    background-size: cover;
 }

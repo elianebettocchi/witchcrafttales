@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Witchcraft Tales</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Garamond" rel="stylesheet" type="text/css">
+    
+</head>
+<body class="fundo">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-inverse navbar-light sticky-top">
+        <a class="navbar-brand" href="#"><img class="img-fluid logo" src="../img/logo.jpg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                    <div class="col-lg-4">
+                    <h4><a class="a-gold" href="../quests.html">Witchcraft Tales</a>: The House <a title="GAME RULES & TUTORIAL" href="https://drive.google.com/file/d/1w7JXHpOGft0sWwNnBLltL6FEK2sgtdRy/view?usp=share_link" class="text-white" target="_blank"><i class="bi bi-info-square"></i></a></h4> 
+                </div>
+                <div class="col-lg-8 dropdown">
+                    <a class="dropdown-toggle a-gold" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="a-gold bi bi-clock"></i></a>
+                    <div class="dropdown-menu p-2 bg-dark" aria-labelledby="dropdownMenuLink">
+                        <p class="text-white">
+                            The timer will stop at 21 minutes and 36 seconds. That is equal to 3 hours and 36 seconds inside this room, from the 72 hours total you have in the house before Dr. Montgomery returns. If you finish exploring the room before that, stop the timer and take note so that you keep track of time. If you need more time in the room, reset the timer and take note of how long you spent.
+                        </p>
+                    </div>
+                <button class="btn btn-light" id='hours'>00</button>
+                <button class="btn btn-light" id='minutes'>00</button>
+                <button class="btn btn-light" id='seconds'>00</button>
+                <button class="btn btn-success" id='start'>START</button>
+                <button class="btn btn-danger" id='stop'>STOP</button>
+                <button class="btn btn-warning" id='reset'>RESET</button>
+            </div>
+        </div>
+    </nav>
+        <div class="container">
+            <div class="row my-4">
+              <div class="col-sm-12 col-lg-6">
+                <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vTFUrQa3F7yWqfExlXLwRAYhC1QI8BlqjqEnha4p9BeUYu40bgGWFTmnuenhxeJBtf9FAmzUGS_5oxn/embed?start=false&loop=false&delayms=60000"></iframe>
+                </div>        
+                </div>
+              <div class="col-sm-12 col-lg-6">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vSHQuw2JhKBNl96UFNUmQJsXgcB0i3QwTd-QIDog-zLijfgnTRIfVwSekjizywZIHhj517M_h3NvJJ6/embed?start=false&loop=false&delayms=60000"></iframe>
+                    </div>   
+                    </div>
+          </div>
+<div class="row my-4">
+<div class="col-sm-12 col-lg-6">
+    <div class="card">
+        <div class="embed-responsive embed-responsive-4by3">
+            <iframe name="hall" class="embed-responsive-item" scrolling="no" src="https://docs.google.com/presentation/d/e/2PACX-1vRAQTO4H5OXIw4vE5EH1asRy7UJJaNcV2i6o9gSknlRniwbMt8ybhSex6LPLI_C-K-8NbbCn7EtzzTg/embed?start=false&loop=false&delayms=60000"></iframe></div>
+        <div class="card-body text-center">
+            <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="If you did not come from here, move ahead to the hall."><a class="a-grey" href="04.html">04</button><button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Or, go check the reading room first."><a class="a-grey" href="#03">03</button>
+    </div>
+    </div>
+</div>
+    <div class="col-sm-12 col-lg-6">
+        <div class="card">
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe name="door" class="embed-responsive-item" scrolling="no" src="https://docs.google.com/presentation/d/e/2PACX-1vQD1_TKeeuVkco_Icxwe6yNE7uZWNAicJKPC_KhajnIJ28VDD8v6sQX6lSfLpEfJb2xc_NPFyQ4IMr-/embed?start=false&loop=false&delayms=60000"></iframe></div>
+            <div class="card-body text-center text-white">
+                <button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="bottom" title="Click to test"><a class="a-grey" href="#drawers"><i class="bi bi-unlock"></i></a>
+                    <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Click if you suceeded the test. If you draw the Happy Mask you get an extra hour inside the house."><a class="a-grey" href="index.html"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a></button><button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="If you failed the test look for another way to proceed."><i class="bi bi-dash-square"></i></button><button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Click if you had the Sad Mask in the test"><a class="a-grey" href="fail.html"><i class="bi bi-emoji-frown"></i></a></button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="row my-4">
+        <div class="col-sm-12 col-lg-6">
+            <div class="card">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe name="cabinet" class="embed-responsive-item" scrolling="no" src="https://docs.google.com/presentation/d/e/2PACX-1vTHz6kjLQFrjxZkNZ-05Hm2VrFteSor7jvcuX2XZ5IXDlHNNhxrmL-BpzTLSuFF_0ErHa_quCBn-ITQ/embed?start=false&loop=false&delayms=60000"></iframe></div>
+                <div class="card-body text-center text-white">
+                    <button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="bottom" title="Click to test"><a class="a-grey" href="#drawers"><i class="bi bi-unlock"></i></a>
+                    <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Click if you suceeded the test. If you draw the Happy Mask you get an extra hour inside the house."><a class="a-grey" href="#drawers"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a></button><button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="If you failed the test look for another way to proceed."><i class="bi bi-dash-square"></i></button><button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Click if you had the Sad Mask in the test"><a class="a-grey" href="fail.html"><i class="bi bi-emoji-frown"></i></a></button>
+            </div>
+            </div>
+        </div>
+            <div class="col-sm-12 col-lg-6">
+                <div class="card">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe name="drawer" class="embed-responsive-item" scrolling="no" src="https://docs.google.com/presentation/d/e/2PACX-1vTsRunjoECAR_LmEFs3rWMTh_sKZ3bGGoi3FaxDE2FculAOGM_lk0pcF8YBeRQF2_PyLocHTm6eh6Xz/embed?start=false&loop=false&delayms=60000"></iframe></div>
+                    <div class="card-body text-center text-white">
+                        <button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="bottom" title="Click to test"><a class="a-grey" href="#drawers"><i class="bi bi-unlock"></i></a></button><button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Click if you suceeded the test. If you draw the Happy Mask you get an extra hour inside the house."><a class="a-grey" href="#drawers"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a></button><button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="If you failed the test look for another way to proceed."><i class="bi bi-dash-square"></i></button><button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Click if you had the Sad Mask in the test"><a class="a-grey" href="fail.html"><i class="bi bi-emoji-frown"></i></a></button>
+                </div>
+                </div>
+            </div>
+            </div>
+        <div class="row my-4" id="03">
+          <div class="col-sm-12 col-lg-6">
+            <div class="card">
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" scrolling="no" src="https://docs.google.com/presentation/d/e/2PACX-1vToiYhpoOzbXmybKVvRfhzWNNzuS8dcNTQzp8z-US5xUD3Dab1ffdV94sVLORgvir56M_kKtx1o5l1n/embed?start=false&loop=false&delayms=60000"></iframe>
+        </div>
+            </div>        
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <div class="card">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe name="video" class="embed-responsive-item" scrolling="no" src="https://docs.google.com/presentation/d/e/2PACX-1vT67lzsTwKS_okQPh2JHKOowXK0dNrZ6NQqpFoYhCiX4PDs-Hkk-vPaBW3l9uq__mTslTar0aIbL1dV/embed?start=false&loop=false&delayms=60000"></iframe>
+            </div>
+            </div>
+        </div>
+        </div> <div class="container" id="drawers">
+        <div class="row justify-content-center folder mt-2 mb-4">               
+            <div class="col-lg-3 self-align-start py-5 px-2"><br><br>
+                <p class="div-black">
+                    <i class="bi bi-emoji-smile"></i> Everytime you get a happy face in a test, you get an extra hour in the house.
+                <br><i class="bi bi-plus-circle"></i> Success, proceed with the action.
+                <br><i class="bi bi-dash-square"></i> If you failed the test look for another way to proceed.
+                <br><i class="bi bi-emoji-frown"></i> Click if you had the Sad Mask in the test.
+            </p>
+            </div><div class="col-lg-1"></div>
+            <div class="col-lg-3 py-5 px-2"><br><br>
+                    <div class="col-12 embed-responsive embed-responsive-1by1">
+                        <iframe name="draw" class="embed-responsive-item" scrolling="no" src="https://elianebettocchi.github.io/drawers/numerals.html"></iframe>
+                        <br><br><br><br><br><br><br><br><br>
+                    </div></div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-3 self-align-start text-center py-4">If you succeed the test, draw an item:
+                        <div class="col-12 embed-responsive embed-responsive-1by1">
+                            <iframe name="draw" class="embed-responsive-item" scrolling="no" src="./itens/itens.html"></iframe>
+                            <br><br><br><br><br><br><br><br><br>
+                        </div>
+                    </div>    
+                </div>
+</div>
+        </div>
+        <footer>
+            <div class="container-fluid bg-dark text-center py-3">
+                <div class="row align-items-end small">
+        <div class="col-12">
+            Incorporeal LudoNarratives © 2008 by Eliane Bettocchi & Carlos Klimick is licensed under CC BY-NC-SA 4.0.
+         </div>
+        </div></div>
+        </footer>
+        <script src="timer.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+    </script>
+</body>
+</html>

@@ -14,185 +14,106 @@
 </head>
 <body class="fundo">
     <nav class="navbar navbar-expand-sm div-black-transparent navbar-inverse navbar-light sticky-top">
-        <a class="navbar-brand" href="#"><img class="img-fluid logo" src="./img/logo.jpg" alt="logo"></a>
+        <a class="navbar-brand" href="#"><img class="img-fluid logo" src="./img/logo.jpg" alt="logo" title="top"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar">
-                    <div class="navbar-nav col-lg-6">
-                    <h4><a class="a-gold" href="#">Witchcraft Tales: Become an Adventurer!</a></h4> 
-                </div>
-                <div class="navbar-nav col-lg-6 dropdown">
-                    <h4><a class="dropdown-toggle a-grey" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Then:</a>
-                    <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item a-gold" href="#bonds"><h4>Make your Acquaintances</h4></a>
+                <div class="navbar-nav col-lg-12 dropdown">
+                    <h4><a class="dropdown-toggle a-gold" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WITCHCRAFT TALES</a>
+                    <div class="dropdown-menu div-black" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item a-gold" href="#first"><h4>Become an Adventurer</h4></a>
+                        <hr>
+                      <a class="dropdown-item a-gold" href="./acquaintance/"><h4>Make your Acquaintances</h4></a>
                       <hr>
-                      <a class="dropdown-item a-gold" href="#quests"><h4>Solve the Mysteries</h4></a>
+                      <a class="dropdown-item a-gold" href="quests.html"><h4>Solve the Mysteries</h4></a>
                       <hr>
-                      <a class="dropdown-item a-gold" href="#tales"><h4>Tell your Tales</h4></a>
-                    </h4></div>
+                      <a class="dropdown-item a-gold" href="tales.html"><h4>Tell your Tales</h4></a>
+                    </div></h4></div>
             </div>
         </nav>
-        <div class="container-fluid align-items-center justify-content-center text-center mt-3 mb-5" id="callings">
-            <div class="row align-items-center justify-content-center text-center">
-                <div class="col-lg-9 div-black-transparent pt-3"><img class="img-fluid" src="./img/home.jpg" alt="home">
-                    <a class="a-gold" href="#empty1" data-toggle="tab"><h1><i class="bi bi-caret-up-fill"></i></a></h1>
-                </div>
-                </div>
-            <div class="row align-items-center justify-content-center text-center tab-content">
-                         <div class="col-lg-9 tab-pane active text-white text-center div-black-transparent text-center pb-3" id="empty1">
-                                <a href="#adventurers" data-toggle="tab"><img class="img-fluid" src="./img/letter.jpg" alt="letter"></a>
+        <div class="container align-items-center justify-content-center text-center mb-5">
+            <div class="row align-items-center justify-content-center text-center mb-5">
+                <div class="col-lg-10 mt-5 mb-5 text-white text-center">
+                    <img class="img-fluid" src="./img/home.jpg" alt="home">               
+                </div></div></div>
+
+                <div class="container-fluid align-items-center justify-content-center text-center div-black-transparent mt-5 p-5" id="first">
+                    <div class="row justify-content-center text-center mt-5 p-5"> 
+                        <div class="col-lg-6 mt-5"><h3><i>
+                            If this is your first attempt to become an adventurer, you must first check your correspondence.
+                            </i></h3></div>
+                            </div></div></div>
+
+                <div class="container align-items-center justify-content-center text-center mt-5 mb-5">
+                    <div class="row align-items-center justify-content-center text-center tab-content mt-5 mb-5">
+                           <div class="col-lg-12 mt-5 mb-5 tab-pane active text-white text-center text-center" >
+                                <a href="#letter" data-toggle="tab"><img class="img-fluid" src="./img/letter.png" alt="letter"></a>
                                 </div>
-                         <div class="col-lg-9 tab-pane text-white div-black-transparent" id="adventurers">
-                            <div class="col-12 embed-responsive embed-responsive-16by9">
-                                <iframe name="letter" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQ1i085WXEenq89ZFjUR5fSF9XckAEu4DJDu2AYBvgv4XQ7sBHP5lxe5H8k-Z5_UqNYw7llkS_QwDxt/embed?start=false&loop=false&delayms=60000"></iframe><br><br></div><br>
-                            <h4><a class="dropdown-toggle a-gold" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choose your calling</a>
-                                <div class="dropdown-menu bg-dark py-3" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item a-gold" data-toggle='tab' href="#explorer"><h5>Explorer</h5></a>
-                                    <a class="dropdown-item a-gold" data-toggle='tab' href="#inventor"><h5>Inventor</h5></a>
-                                    <a class="dropdown-item a-gold" data-toggle='tab' href="#journalist"><h5>Journalist</h5></a>
-                                    <a class="dropdown-item a-gold" data-toggle='tab' href="#naturalist"><h5>Naturalist</h5></a>
-                                    <a class="dropdown-item a-gold" data-toggle='tab' href="#occultist"><h5>Occultist</h5></a>
-                                    <a class="dropdown-item a-gold" data-toggle='tab' href="#physician"><h5>Physician</h5></a>
-                        </div></h4>
-                        <br>
-                    </div>
-                     <div class="col-lg-9 tab-pane text-white div-black-transparent" id="explorer">
-                        <iframe src="./callings/explorer.html" width="100%" height="5000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+                         <div class="col-lg-8 mt-5 mb-5 tab-pane text-white text-center text-center" id="letter">
+                                    <a href="#adventurers" data-toggle="tab"><img class="img-fluid" src="./img/carta1.jpg" alt="letter"></a>
+                                    <p></p><button class="btn-info"><a class="a-gold" href="https://drive.google.com/file/d/1ZbIbtB5FHQaKO-sHvdOkTWpPiy2kTiE0/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><i class="bi bi-arrows-fullscreen"></i></a></button>
+                                    </div>
+                         <div class="col-lg-8 mt-5 mb-5 tab-pane text-white align-items-center justify-content-center text-center" id="adventurers">
+                            <a class="dropdown-toggle a-gold" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="./img/carta1.png" alt="letter"></a>
+                                <div class="dropdown-menu div-black text-center justify-content-center py-3" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item a-gold" href="./callings/explorer.html"><h5>an Explorer</h5></a>
+                                    <a class="dropdown-item a-gold" href="./callings/inventor.html"><h5>an Inventor</h5></a>
+                                    <a class="dropdown-item a-gold" href="./callings/journalist.html"><h5>a Journalist</h5></a>
+                                    <a class="dropdown-item a-gold" href="./callings/naturalist.html"><h5>a Naturalist</h5></a>
+                                    <a class="dropdown-item a-gold" href="./callings/occultist.html"><h5>an Occultist</h5></a>
+                                    <a class="dropdown-item a-gold" href="./callings/physician.html"><h5>a Physician</h5></a>
                         </div>
-                     <div class="col-lg-9 tab-pane text-white div-black-transparent" id="inventor">
-                        <iframe src="./callings/inventor.html" width="100%" height="5000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
                     </div>
-                    <div class="col-lg-9 tab-pane text-white div-black-transparent" id="journalist">
-                        <iframe src="./callings/journalist.html" width="100%" height="5000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
-                    </div>
-                    <div class="col-lg-9 tab-pane text-white div-black-transparent" id="naturalist">
-                        <iframe src="./callings/naturalist.html" width="100%" height="5000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
-                    </div>
-                    <div class="col-lg-9 tab-pane text-white div-black-transparent" id="occultist">
-                        <iframe src="./callings/occultist.html" width="100%" height="5000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
-                    </div>
-                    <div class="col-lg-9 tab-pane text-white div-black-transparent" id="physician">
-                        <iframe src="./callings/physician.html" width="100%" height="5000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
-                    </div>
-                 </div> 
-                </div></div>
-        </div>
-                
-    <div class="container-fluid div-black-transparent text-center py-5" id="bonds"><br><br><br>
-        <div class="row align-items-center justify-content-center text-center py-5">
-            <div class="col-12 text-center"><h3>Make your Acquaintances</h3>
-                <a class="a-gold" href="#empty2" data-toggle="tab"><h1><i class="bi bi-caret-up-fill"></i></a></h1>
-            </div>
-        </div></div>
-        <div class="container-fluid align-items-center justify-content-center text-center mt-3 mb-5">
-        <div class="row align-items-center justify-content-center text-center">
-                    <div class="container text-justify col-lg-9 tab-content">
-                                <div class="tab-pane active text-white" id="empty2">
-                                   <div class="col-12 div-black-transparent text-center py-5">
-                                       <a href="#soiree" data-toggle="tab"><img class="img-fluid" src="./img/letter2.jpg" alt="letter"></a>
-                                       </div>
-                                </div>
-                         <div class="tab-pane text-white" id="soiree">
-                            <div class="col-12 embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vR7WSIyd5_RSeYHDmpIIpGl4uDpw11tf1v5dw7vSUllthq-kAKysB__WkYJAxOTQmBJ2jkbxPjMVOhX/embed?start=false&loop=false&delayms=60000"></iframe><br><br></div>
-                                <div class="col-12 div-black-transparent text-center py-3"><h4>
-                                    <a class="a-gold" href="#roles" data-toggle="tab">[ ? ]</a>
-                                    <a class="a-gold" href="#quests">[ ! ]</a>
-                                </h4></div></div>
-                     <div class="tab-pane text-white text-center div-black-transparent" id="roles">
-                                <iframe src="./acquaintance/bonds.html" width="100%" height="5700" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
-                                </div></div>
-                     </div>
-          </div></div>
-    </div>
-   </div></div></div>
-  
-    <div class="container-fluid div-black-transparent text-center py-5" id="quests"><br><br><br>
-        <div class="row align-items-center justify-content-center text-center py-5">
-            <div class="col-12 text-center"><h3>Solve the Mysteries</h3>
-                <a class="a-gold" href="#empty3" data-toggle="tab"><h1><i class="bi bi-caret-up-fill"></i></h1></a>
-            </div>
-        </div></div>
-        <div class="container-fluid align-items-center justify-content-center text-center mt-3 mb-5">
-            <div class="row align-items-center justify-content-center text-center">
-                <div class="container tab-content text-justify col-lg-9">
-                     <div class="tab-pane active text-white" id="empty3">
-                        <div class="col-12 div-black-transparent text-center py-5">
-                        <a href="#where" data-toggle="tab"><img class="img-fluid" src="./img/quests.jpg" alt="quests"></a>
                      </div></div>
-                     <div class="tab-pane text-white div-black-transparent text-center" id="where">
-                        <div class="col-12 embed-responsive embed-responsive-16by9">
-                            <iframe name="quests" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vSzQTfxhMSY8wpaLk0mizOSqRB24jVVXvQPTTwwFVLyCD9Me8CdT-E0iMpSW1xb36QpQhd5JdqshsiW/embed?start=false&loop=false&delayms=60000"></iframe><br><br><br></div>
-                            <br>
-                            <h4>
-                            <a class="a-gold" href="#cemetery" data-toggle="tab">[1]</a>
-                            <a class="a-gold" href="#house" data-toggle="tab">[2]</a>
-                            </h4><br></div>
-                 <div class="tab-pane text-white container mb-5" id="cemetery">
-            <div class="row align-items-center justify-content-center text-center">
-                <div class="col-12 embed-responsive embed-responsive-16by9">
-        <iframe name="quests" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQPe86LcPqXjqOT-jmcLekCXcIMYWPF_0HmaAwvWOnPZsChk45fuXI3tHhIOtCdUIPBLQXI686s1JFc/embed?start=false&loop=false&delayms=60000"></iframe><br><br><br></div></div>
-            <div class="row justify-content-center folder">               
-                <div class="col-lg-3 self-align-start py-5 px-2"><br><br>
-                    <p class="div-black">
-                        <i class="bi bi-emoji-smile"></i> Everytime you get a happy face in a test, you get an extra hour for the mission.
-                    <br><i class="bi bi-plus-circle"></i> Success, proceed with the action.
-                </p><img class="img-fluid" src="./img/combat.jpg" alt="combat">
-                </div><div class="col-lg-1"></div>
-                <div class="col-lg-3 py-5 px-2"><br><br>
-                        <div class="col-12 embed-responsive embed-responsive-1by1">
-                            <iframe name="draw" class="embed-responsive-item" scrolling="no" src="https://elianebettocchi.github.io/drawers/numerals.html"></iframe>
-                            <br><br><br><br><br><br><br><br><br>
-                        </div></div>
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-3 self-align-start py-5 px-2"><br><br><p class="div-black">
-                            <i class="bi bi-dash-square"></i> If you failed the test look for another way to proceed.
-                    <br><i class="bi bi-emoji-frown"></i> You get arrested for 72 hours until Dr. Van Helsing shows up and bails you out.
-                    </p><img class="img-fluid" src="./img/magic.jpg" alt="combat">
-                        </div>    
-                    </div>
-        </div>
-        <div class="tab-pane text-white div-black-transparent container-fluid" id="house">
-                <div class="row align-items-center justify-content-center text-center">
-                    <div class="col-12 embed-responsive embed-responsive-16by9">
-            <iframe name="quests" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQ31L9jA1AC9OyT4Y7aoCNoBJiNDNui9FuFdeEMNUDGdiHcY7McLBYOfh3rKz-c0dCwOedgFSME9QRg/embed?start=false&loop=false&delayms=60000"></iframe><br><br><br></div><br><br>
-            <a class="a-gold" href="./house"  data-toggle="tooltip" data-placement="bottom" title="Use the key to enter the house."><img class="img-fluid" src="./img/key.png" alt="click"></a><br><br>
-        </div>
-            </div></div>
-    </div></div></div></div>
-        <div class="container-fluid div-black-transparent text-center py-5" id="tales"><br><br><br>
-            <div class="row align-items-center justify-content-center text-center py-5">
-                <div class="col-12 text-center"><h3>Tell your Tales</h3></div>
-            </div></div>
-        <div class="container-fluid align-items-center justify-content-center text-center mt-3 mb-5">
-            <div class="row align-items-center justify-content-center text-center">
-                <div class="col-lg-9 div-black-transparent py-3">
-            <a href="https://drive.google.com/file/d/1Y8Vw9qX2mGkE8k6L6R0mW7MROhLODs4m/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><img src="./img/tales.jpg" alt="tales"></a><br>
-                    <h4>
-                    <a class="a-gold" href="#contact" data-toggle="tab">Contact</a>
-                    <a class="a-gold" href="#empty4" data-toggle="tab"><i class="bi bi-caret-up-fill"></i></a>
-                    <a class="a-gold" href="https://www.google.com/url?q=https://drive.google.com/drive/folders/1YKabJ44p0HQ_lhRAMnQWoV6F3INO9fe_?usp%3Dshare_link&sa=D&source=editors&ust=1677540997137396&usg=AOvVaw0wzn8YSniKx2JYlVvNghRt" target="_blank">Witchcraft Tales Drive</a>
-                    </h4>
-                </div> </div>
-                <div class="row justify-content-center">
-                    <div class="container text-justify card">
-                        <div class="tab-content">
-                         <div class="tab-pane active text-white" id="empty4"></div>
-                     <div class="tab-pane text-white" id="contact">
-            <div class="container mb-5">
-            <div class="row justify-content-center text-center">               
-                <div class="col-12 self-align-start">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0QuruyYnzGfGPiCIOJrJO9-RGlGqujed9nfLxPTapQvWLLA/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe></div>
-                </div>
-</div></div></div></div></div></div>
+                     
+                     <div class="container-fluid align-items-center justify-content-center text-center div-black-transparent mt-5 p-5" id="cards">
+                        <div class="row justify-content-center text-center mt-5 p-5"> 
+                            <div class="col-lg-8 mt-5"><h3><i>
+                                If you are a seasoned adventurer, you can either click on the card below to DRAW a combination or CHOOSE one Calling and complete the character sheet. Or, you can skip to the <a class="a-gold"  href="https://forms.gle/Z2q4DLDfJsxENLug9" target="_blank" rel="noopener noreferrer">Character Development sheet</a>.
+                                </div></i></h3>
+                                </div></div>
+                                
+                                <div class="container align-items-center justify-content-center text-center mt-5">
+                                    <div class="row justify-content-center text-center mt-5"> 
+                                        <div class="col-lg-4 p-5"><button class="button">
+                                           <a class="dropdown-toggle a-gold" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Draw your Calling:</a>
+                                           <div class="dropdown-menu div-black text-center justify-content-center py-3" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item a-gold" href="./callings/explorer.html"><h5>Explorer</h5></a>
+                                            <a class="dropdown-item a-gold" href="./callings/inventor.html"><h5>Inventor</h5></a>
+                                            <a class="dropdown-item a-gold" href="./callings/journalist.html"><h5>Journalist</h5></a>
+                                            <a class="dropdown-item a-gold" href="./callings/naturalist.html"><h5>Naturalist</h5></a>
+                                            <a class="dropdown-item a-gold" href="./callings/occultist.html"><h5>Occultist</h5></a>
+                                            <a class="dropdown-item a-gold" href="./callings/physician.html"><h5>Physician</h5></a>
+                                </div></button>
+                                            <div class="col-12 embed-responsive embed-responsive-1by1">
+                                                <iframe name="draw" class="embed-responsive-item" scrolling="no" src="./callings/callings.html"></iframe>
+                                                <br><br><br><br><br><br><br>
+                                            </div></div>
+                                        <div class="col-lg-4 p-5">
+                                            <button class="button">Draw your Status:</button>
+                                            <div class="col-12 embed-responsive embed-responsive-1by1">
+                                                <iframe name="draw" class="embed-responsive-item" scrolling="no" src="https://elianebettocchi.github.io/drawers/numerals.html"></iframe>
+                                                <br><br><br><br><br><br><br><br><br>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 p-5">
+                                            <button class="button">Draw your Role:</button>
+                                                <div class="col-12 embed-responsive embed-responsive-1by1">
+                                                    <iframe name="draw" class="embed-responsive-item" scrolling="no" src="https://elianebettocchi.github.io/drawers/roles.html"></iframe>
+                                                    <br><br><br><br><br><br><br><br><br>
+                                                </div></div>
+                                            </div>
+                        </div>
+                    
+       
             <footer>
                 <div class="container-fluid div-black text-center small py-3">
                     <div class="row align-items-end">
                             <div class="col-12">
                                 <a class="a-gold" href="https://elianebettocchi.github.io/incorporais/" target="_blank" rel="noopener noreferrer">Incorporeal LudoNarratives</a> © 2008 by <a class="a-gold" href="https://elianebettocchi.github.io/portfolio" target="_blank" rel="noopener noreferrer">Eliane Bettocchi</a> & Carlos Klimick is licensed under <a class="a-gold" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>.
                              </div>
-            </div></div></div></footer>
+            </div></div></footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script>

@@ -13,7 +13,7 @@
     
 </head>
 <body class="fundo">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-inverse navbar-light sticky-top">
+    <nav class="navbar navbar-expand-sm div-black-transparent navbar-inverse navbar-light sticky-top">
         <a class="navbar-brand" href="#"><img class="img-fluid logo" src="../img/logo.jpg" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -39,71 +39,108 @@
         </div>
     </nav>
         <div class="container">
-            <div class="row my-4">
-              <div class="col-sm-12 col-lg-6">
+            <div class="row my-4 tab-content">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="card">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vR6WXg8eiKOzWR7x6s64TAwpuA_SnPAz2sTkrYT3MEihbOezXDChM2FdbCNc7niyrofb8xol6JHuVOF/embed?start=false&loop=false&delayms=60000"></iframe>
+                        </div> 
+                        <div class="card-body text-center text-white">
+                            <a class="a-grey" href="#dezesseis" data-toggle="tab"><button type="button" class="btn btn-success">16</button></a>
+                            <a class="a-grey" href="#chest" data-toggle="tab"><button type="button" class="btn btn-info">?</button></a>
+                            <a class="a-grey" href="#doors" data-toggle="tab"><button type="button" class="btn btn-secondary">12 - 17</button></a>
+                        </div>   
+              </div></div>
+              <div class="col-sm-12 col-lg-6 tab-pane active" id="dezesseis">
+                <div class="card">
                 <div class="embed-responsive embed-responsive-4by3">
                 <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vSUne5MB-NVx04Nlvxx1eCBwebtJNzvwU213Q0Op5F0y57O6e19eEELhtMRKXRhCy1wNNqS9RKzoGEf/embed?start=false&loop=false&delayms=60000"></iframe>
-                </div>        
-                </div>
-              <div class="col-sm-12 col-lg-6">
-                <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vR6WXg8eiKOzWR7x6s64TAwpuA_SnPAz2sTkrYT3MEihbOezXDChM2FdbCNc7niyrofb8xol6JHuVOF/embed?start=false&loop=false&delayms=60000"></iframe>
-                    </div> 
-          </div>
-      </div>
-<div class="row my-4">
-    <div class="col-sm-12 col-lg-6">
+                </div> 
+                <div class="card-body text-center">
+                    <a class="a-grey" href="https://drive.google.com/file/d/1Rt9PU0hkKGBA25WOhTmSufEmE1LSr5ul/view?usp=drive_link" target="_blank"><button type="button" class="btn btn-success"><i class="bi bi-file-play"></i></button></a>
+            </div>  
+                </div></div>
+             
+    
+    <div class="col-sm-12 col-lg-6 tab-pane" id="doors">
         <div class="card">
             <div class="embed-responsive embed-responsive-4by3">
                 <iframe name="door" class="embed-responsive-item" scrolling="no" src="https://docs.google.com/presentation/d/e/2PACX-1vQFyZJOpmRPkcv_00tZtDXFskFTDoDuUsghDXCWKi7hcNGkCpF3AuTG1mYli4TIpq_EjN3W75wUr27h/embed?start=false&loop=false&delayms=60000"></iframe></div>
             <div class="card-body text-center text-white">
-                <button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="bottom" title="Click to test."><a class="a-grey" href="#drawers"><i class="bi bi-unlock"></i></a></button><button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Click if you suceeded the test. If you draw the Happy Mask you get an extra hour inside the house."><a class="a-grey" href="12.html"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a></button><button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="bottom" title="Click to test."><a class="a-grey" href="#drawers"><i class="bi bi-unlock"></i></a></button><button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Click if you suceeded the test. If you draw the Happy Mask you get an extra hour inside the house."><a class="a-grey" href="17.html"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a></button><button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="If you failed the test look for another way to proceed."><i class="bi bi-dash-square"></i></button><button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Click if you had the Sad Mask in the test"><a class="a-grey" href="fail.html"><i class="bi bi-emoji-frown"></i></a></button>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Click to test."><a class="a-grey" href="#drawers"><i class="bi bi-unlock"></i></a></button>
+                <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Click if you suceeded the test. If you draw the Happy Mask you get an extra hour inside the house."><a class="a-grey" href="12.html"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a></button>
+                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Click to test."><a class="a-grey" href="#drawers"><i class="bi bi-unlock"></i></a></button>
+                <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Click if you suceeded the test. If you draw the Happy Mask you get an extra hour inside the house."><a class="a-grey" href="17.html"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a></button>
+                <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="If you failed the test look for another way to proceed."><i class="bi bi-dash-square"></i></button>
+                <button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Click if you had the Sad Mask in the test"><a class="a-grey" href="fail.html"><i class="bi bi-emoji-frown"></i></a></button>
         </div>
         </div>
     </div>
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-sm-12 col-lg-6 tab-pane" id="chest">
             <div class="card">
                 <div class="embed-responsive embed-responsive-4by3">
                     <iframe name="chest" class="embed-responsive-item" scrolling="no" src="https://docs.google.com/presentation/d/e/2PACX-1vTnsX_3WH5yEb0b_38M4894Glrw9dJ-AAKkj6Bl5CIgGrORBT45ErJU8MG0x-h6pcQfcSNUx-kYr63X/embed?start=false&loop=false&delayms=60000"></iframe></div>
-                    <div class="card-body text-center text-white dropdown">
-                        <button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="bottom" title="Click to test."><a class="a-grey" href="#drawers"><i class="bi bi-unlock"></i></a></button><button type="button" class="btn btn-success"><a class="dropdown-toggle a-grey" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a>
-                            <div class="dropdown-menu col-lg-6 p-2 bg-dark" aria-labelledby="dropdownMenuLink">
-                                <img class="img-fluid" src="./itens/cards/11.png" alt="">
-                                <p class="text-white">
-                                    You also get this item. If you already have it, draw again.
-                                </p>
-                            </div></button><button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="If you failed the test look for another way to proceed."><i class="bi bi-dash-square"></i></button><button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Click if you had the Sad Mask in the test"><a class="a-grey" href="fail.html"><i class="bi bi-emoji-frown"></i></a></button><button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="bottom" title="Click if you chose to spend magic points"><a class="dropdown-toggle a-grey" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="bi bi-asterisk"></i></a><div class="dropdown-menu col-lg-6 p-2 bg-dark" aria-labelledby="dropdownMenuLink">
-                                <a href="19.html"><img class="img-fluid" src="../img/abstract.png" alt="painting"></a>
-                            </div></button>
-                        </div>
-            </div>
-        </div></div><div class="container" id="drawers">
-            <div class="row justify-content-center folder mt-2 mb-4">               
-                <div class="col-lg-3 self-align-start py-5 px-2"><br><br>
-                    <p class="div-black">
-                        <i class="bi bi-emoji-smile"></i> Everytime you get a happy face in a test, you get an extra hour in the house.
-                    <br><i class="bi bi-plus-circle"></i> Success, proceed with the action.
-                    <br><i class="bi bi-dash-square"></i> If you failed the test look for another way to proceed.
-                    <br><i class="bi bi-emoji-frown"></i> Click if you had the Sad Mask in the test.
-                </p>
-                </div><div class="col-lg-1"></div>
-                <div class="col-lg-3 py-5 px-2"><br><br>
-                        <div class="col-12 embed-responsive embed-responsive-1by1">
-                            <iframe name="draw" class="embed-responsive-item" scrolling="no" src="https://elianebettocchi.github.io/drawers/numerals.html"></iframe>
-                            <br><br><br><br><br><br><br><br><br>
-                        </div></div>
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-3 self-align-start text-center py-4">If you succeed the test, draw an item:
-                            <div class="col-12 embed-responsive embed-responsive-1by1">
-                                <iframe name="draw" class="embed-responsive-item" scrolling="no" src="./itens/itens.html"></iframe>
-                                <br><br><br><br><br><br><br><br><br>
+                    <div class="card-body text-center text-white">
+                            <a class="a-grey" href="#drawers"><button type="button" class="btn btn-secondary"><i class="bi bi-unlock"></i></button></a>
+                            <a class="a-grey" href="#item" data-toggle="tab"><button type="button" class="btn btn-success"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></button></a>
+                            <button type="button" class="btn btn-warning"><i class="bi bi-dash-square"></i></button>
+                            <a class="a-grey" href="fail.html"><button type="button" class="btn btn-danger"><i class="bi bi-emoji-frown"></i></button></a>
                             </div>
-                        </div>    
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 tab-pane transparent" id="item">
+            <div class="col-lg-6 m-0 p-0 transparent">
+            <div class="embed-responsive embed-responsive-1by1">
+                <iframe name="draw" class="embed-responsive-item" scrolling="no" src="./itens/itens.html"></iframe>
+                <br><br><br><br><br><br><br><br><br>
+            </div>
+            <button type="button" class="btn btn-success"><a class="dropdown-toggle a-grey" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                <div class="dropdown-menu col-lg-12 p-0 div-black" aria-labelledby="dropdownMenuLink">
+                    <img class="img-fluid" src="./itens/cards/11.png" alt="">
+                    <p class="text-white text-center">
+                        You also get this item. If you already have it, draw again.
+                    </p>
+                </div></button>
+            </div></div>  
+        <div class="col-sm-12 col-lg-6 tab-pane" id="doors1">
+            <div class="card">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe name="door13" class="embed-responsive-item" scrolling="no" src="https://docs.google.com/presentation/d/e/2PACX-1vTR6M6b5oCjw0bx_udcWC3zK68on_aIcpYQ9QcgyWpvAHBHypUNKQ9bBI2F1-1b4NhRU3390YFEm28a/embed?start=false&loop=false&delayms=60000"></iframe></div>
+                <div class="card-body text-center text-white">
+                    <a class="a-grey" href="12.html"><button type="button" class="btn btn-success">12</button></a>
+                    <a class="a-grey" href="17.html"><button type="button" class="btn btn-success">17</button></a>
                     </div>
+            </div>
+        </div>
     </div>
+        
+    <div class="container-fluid mb-5" id="drawers">
+        <div class="row justify-content-center">               
+            <div class="col-lg-4 container p-0 m-0">
+                <img class="img-fluid" src="../img/folderdown.jpg" alt="folder">
+                <div class="top">
+                    <i class="bi bi-emoji-smile"></i> Everytime you get a happy face in a test, you get an extra hour for the mission.
+                <br><i class="bi bi-plus-circle"></i> Success, proceed with the action.
+                </div>
+            </div> 
+            <div class="col-lg-4 container p-0 m-0">
+                <img class="img-fluid" src="../img/folderup.jpg" alt="folder">
+                <div class="centered">
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe name="draw" class="embed-responsive-item" scrolling="no" src="https://elianebettocchi.github.io/drawers/numerals.html"></iframe>
+                        <br><br><br><br><br><br><br><br><br>
+                    </div></div></div>
+                    <div class="col-lg-4 m-0 p-0">
+                        <img class="img-fluid" src="../img/folderdown.jpg" alt="folder">
+                        <div class="top">
+                        <i class="bi bi-dash-square"></i> If you failed the test look for another way to proceed.
+                <br><i class="bi bi-emoji-frown"></i> You get arrested for 72 hours until Dr. Van Helsing shows up and bails you out.
+                
+                    </div>    
+                </div></div></div>
             </div>
             <footer>
-                <div class="container-fluid bg-dark text-center py-3">
+                <div class="container-fluid div-black text-center py-3">
                     <div class="row align-items-end small">
             <div class="col-12">
                 Incorporeal LudoNarratives © 2008 by Eliane Bettocchi & Carlos Klimick is licensed under CC BY-NC-SA 4.0.

@@ -13,7 +13,7 @@
     
 </head>
 <body class="fundo">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-inverse navbar-light sticky-top">
+    <nav class="navbar navbar-expand-sm div-black-transparent navbar-inverse navbar-light sticky-top">
         <a class="navbar-brand" href="#"><img class="img-fluid logo" src="../img/logo.jpg" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -41,75 +41,96 @@
     <div class="container">
         <div class="row my-4">
             <div class="col-sm-12 col-lg-6">
-              <div class="embed-responsive embed-responsive-4by3">
-              <iframe name="drawer" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQubluo_rvAdv2IYNVXRmRVmPDTbbYRg8wvW_mVxerD9Gq5k5pMtiTlt5n2bg-2vmxnJa4Bk_Y65ra2/embed?start=false&loop=false&delayms=60000"></iframe>
-              </div>        
-              </div>
-            <div class="col-sm-12 col-lg-6">
+                <div class="card">
                 <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vTZbUr9B06dmBrHGuPwfthcUHE3YjbDCrfq2gTYrjpigMuFw3JFbJHiqiyNW7LI0PUJ8Mx65j3Mq2O3/embed?start=false&loop=false&delayms=60000"></iframe>
                     </div> 
+                    <div class="card-body text-center text-white">
+                        <button type="button" class="btn btn-success"><a class="a-grey" href="https://docs.google.com/presentation/d/e/2PACX-1vQubluo_rvAdv2IYNVXRmRVmPDTbbYRg8wvW_mVxerD9Gq5k5pMtiTlt5n2bg-2vmxnJa4Bk_Y65ra2/embed?start=false&loop=false&delayms=60000" target="dezessete">17</a></button>
+                    </div>
+                </div>
         </div>
-    </div>
-</div>
-            <div class="container-fluid bg-dark text-white py-5">
-                <div class="container text-justify"> 
-                    <div>
-                        <a class="a-grey" data-toggle='tab' href="#witch"><button type="button" class="btn btn-info"><i class="bi bi-question-square"></i></a></button><button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="Click to test."><a class="a-grey" href="#drawers"><i class="bi bi-exclamation-square"></i></a></button><button type="button" class="btn btn-success"><a class="a-grey" data-toggle='tab' href="#success"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a></button><button type="button" class="btn btn-warning"><a class="a-grey" data-toggle='tab' href="#fail"><i class="bi bi-dash-square"></i></a></button><button type="button" class="btn btn-danger"><a class="a-grey" data-toggle='tab' href="#sadmask"><i class="bi bi-emoji-frown"></i></a></button><button type="button" class="btn btn-success"><a class="a-grey" href="https://docs.google.com/presentation/d/e/2PACX-1vQubluo_rvAdv2IYNVXRmRVmPDTbbYRg8wvW_mVxerD9Gq5k5pMtiTlt5n2bg-2vmxnJa4Bk_Y65ra2/embed?start=false&loop=false&delayms=60000" target="drawer">17</a></button>
-                </div><div class="tab-content pt-4">
-                    <div class="tab-pane active text-white" id="witch">
-                    <h3><i class="bi bi-question-square"></i> The Mummies</h3></a>
+            <div class="col-sm-12 col-lg-6">
+                <div class="card">
+              <div class="embed-responsive embed-responsive-4by3">
+              <iframe name="dezessete" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQubluo_rvAdv2IYNVXRmRVmPDTbbYRg8wvW_mVxerD9Gq5k5pMtiTlt5n2bg-2vmxnJa4Bk_Y65ra2/embed?start=false&loop=false&delayms=60000"></iframe>
+              </div> 
+              <div class="card-body text-center text-white">
+                <a class="a-grey" href="https://drive.google.com/file/d/1aZS8_WmfFKJ4fTrrDBP7Eh5bzRlPX-QE/view?usp=drive_link" target="_blank"><button type="button" class="btn btn-success"><i class="bi bi-file-play"></i></button></a>
+                <a class="a-grey" data-toggle='tab' href="#engage"><button type="button" class="btn btn-info"><i class="bi bi-exclamation-square"></i></button></a>
+                <a class="a-grey" data-toggle='tab' href="#escape"><button type="button" class="btn btn-secondary"><i class="bi bi-exclamation-square"></i></button></a>
+            </div>       
+              </div></div>
+           </div></div>
+           <div class="container-fluid">
+                <div class="row tab-content">
+                 <div class="col-12 tab-pane text-white p-5 card" id="engage">
+                    <h3><i class="bi bi-exclamation-square"></i> The Witch and the Mummies</h3></a>
                     <p>Whatever the outcome, you notice the 3 “corpses” are actually alive but catatonic. They are in very bad shape and in need of urgent medical assistance. Otherwise, they will die for real in 24 hours. Also, BELIEVERS must turn the three cards below, if didn't go inside or failed the tests in rooms 13, 14 and 15. </p>
-                </div>
-                <div class="tab-pane text-white" id="success">
+                    <div class="row justify-content-center">
+                    <div class="col-lg-2"><img class="img-fluid" src="../img/amelia1.png" alt="witch"></div>
+                    <div class="col-lg-2"><img class="img-fluid" src="../img/mummy.png" alt="mummy"></div>
+                    <div class="col-lg-2"><img id="howler" src="./itens/cards/card.png" alt="click" class="card-img-top img-fluid" onclick="howler()" data-toggle="tooltip" data-placement="top" title="Turn this card if you did not go into or failed the test in room 13."></div>
+                    <div class="col-lg-2"><img id="mule" src="./itens/cards/card.png" alt="lik to card drawer" class="card-img-top img-fluid" onclick="mule()" data-toggle="tooltip" data-placement="top" title="Turn this card if you did not go into or failed the test in room 14."></div>
+                    <div class="col-lg-2"><img id="stamper" src="./itens/cards/card.png" alt="lik to card drawer" class="card-img-top img-fluid" onclick="stamper()" data-toggle="tooltip" data-placement="top" title="Turn this card if you did not go into or failed the test in room 15."></div>
+                    <div class="card-body text-center text-white">
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Click to test."><a class="a-grey" href="#drawers"><i class="bi bi-exclamation-square"></i></a></button>
+                <button type="button" class="btn btn-success"><a class="a-grey" data-toggle='tab' href="#success1"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a></button>
+                <button type="button" class="btn btn-warning"><a class="a-grey" data-toggle='tab' href="#fail"><i class="bi bi-dash-square"></i></a></button>
+                <button type="button" class="btn btn-danger"><a class="a-grey" data-toggle='tab' href="#sadmask"><i class="bi bi-emoji-frown"></i></a></button>
+            </div>
+                </div></div>
+                <div class="col-12 tab-pane text-white div-black p-5" id="success1">
                     <h3><i class="bi bi-emoji-smile"></i> Success <i class="bi bi-plus-circle"></i></h3>
-                    <p>If you defeat the opponents, you find where the evidences are hidden <a class="a-gold" href="https://docs.google.com/presentation/d/e/2PACX-1vSmkEfGzpgd8CXMMUJGaO3CCepEUQm8fdWQHEzFPLus9_O-yP1VjshuASEUgultN4bQ7DLX-iJ58BeG/embed?start=false&loop=false&delayms=60000" target="drawer" rel="noopener noreferrer">[$]</a>. However, you need to unlock the casket without triggering the trap inside. If you agreed and succeded to help the lady's spirit in room 07, the Saci will tell you the combination. If not, <a class="a-gold" href="#drawers" rel="noopener noreferrer">TEST</a> Security + INT H or Crafts + INT VH: <a class="a-green" href="https://docs.google.com/presentation/d/e/2PACX-1vQ7eNZFuGfGWcabdl1bFDOjd1FKQQ10b89ZIMpRt2gD3aJztiUmY_qDnA3OfbpRpLDkem51ZZL3VKiw/embed?start=false&loop=false&delayms=60000" target="drawer" rel="noopener noreferrer"><i class="bi bi-plus-circle"></i></a> <a class="a-yellow" href="https://docs.google.com/presentation/d/e/2PACX-1vS85Nkf732TZhUv68_aEINLaZwOsEIvKTxwewwotiEYBp2PrDiSQXwlmmXEznjrVlnKzNGfBxHuQk6p/embed?start=false&loop=false&delayms=60000" target="drawer" rel="noopener noreferrer"><i class="bi bi-dash-square"></i></a>. If you got a stroke of luck <i class="bi bi-emoji-smile"></i>, you gain one extra hour in the house. Anyway, you can go back DOWN <a class="a-gold" href="16.html">[16]</a> the stairs. However, if you think you have enough evidence, you may leave the house <a class="a-gold" href="exit.html"><i class="bi bi-box-arrow-right"></i></a>.</p>
+                    <p>If you defeat the opponents, you find where the evidences are hidden <a class="a-gold" href="https://docs.google.com/presentation/d/e/2PACX-1vSmkEfGzpgd8CXMMUJGaO3CCepEUQm8fdWQHEzFPLus9_O-yP1VjshuASEUgultN4bQ7DLX-iJ58BeG/embed?start=false&loop=false&delayms=60000" target="dezessete" rel="noopener noreferrer">[$]</a>. However, you need to unlock the casket without triggering the trap inside. If you agreed and succeded to help the lady's spirit in room 07, the Saci will tell you the combination. If not, <a class="a-gold" href="#drawers" rel="noopener noreferrer">TEST</a> Security + INT or Crafts + PHY against 13: <a class="a-green" href="https://docs.google.com/presentation/d/e/2PACX-1vQ7eNZFuGfGWcabdl1bFDOjd1FKQQ10b89ZIMpRt2gD3aJztiUmY_qDnA3OfbpRpLDkem51ZZL3VKiw/embed?start=false&loop=false&delayms=60000" target="dezessete" rel="noopener noreferrer"><i class="bi bi-plus-circle"></i></a> <a class="a-yellow" href="https://docs.google.com/presentation/d/e/2PACX-1vS85Nkf732TZhUv68_aEINLaZwOsEIvKTxwewwotiEYBp2PrDiSQXwlmmXEznjrVlnKzNGfBxHuQk6p/embed?start=false&loop=false&delayms=60000" target="dezessete" rel="noopener noreferrer"><i class="bi bi-dash-square"></i></a>. If you got a stroke of luck <i class="bi bi-emoji-smile"></i>, you gain one extra hour in the house. Anyway, you can go back DOWN <a class="a-gold" href="16.html">[16]</a> the stairs. However, if you think you have enough evidence, you may leave the house <a class="a-gold" href="exit.html"><i class="bi bi-box-arrow-right"></i></a>.</p>
                 </div>
-                <div class="tab-pane text-white" id="fail">
+                <div class="col-12 tab-pane text-white div-black-transparent p-5" id="fail">
                     <h3><i class="bi bi-dash-square"></i> Failure</h3>
                     <p>If you fail either engage or escape, the group will be imprisoned in the basement and delivered to the police to be arrested for 72 hours until Dr. Van Helsing shows up and bails you out. That also means Dr. Montgomery is back and this part of the mission failed <a class="a-gold" href="exit.html"><i class="bi bi-box-arrow-right"></i></a>.</p>
                 </div>
-                <div class="tab-pane text-white" id="sadmask">
+                <div class="col-12 tab-pane text-white div-black-transparent p-5" id="sadmask">
                     <h3><i class="bi bi-emoji-frown"></i> Fail</h3>
                     <p>If you draw the Sad Mask, the group will be imprisoned in the basement and delivered to the police. Dr. Van Helsing was also arrested and you will need a lawyer. <a class="a-gold" href="../tales.html">Tell your Tales</a>.</p>
                 </div>
-                    </div>
-            </div></div>
-            <div class="container-fluid justify-content-center div-black-transparent py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-2 pb-3">
-                    <img class="img-fluid" src="../img/amelia1.png" alt="witch">
-                </div><div class="col-lg-2 pb-3">
-                    <img class="img-fluid" src="../img/mummy.png" alt="mummy">
-                </div>
-                <div class="col-sm-12 col-lg-2 pb-3">
-                        <img id="howler" src="./itens/cards/card.png" alt="click" class="card-img-top img-fluid" onclick="howler()" data-toggle="tooltip" data-placement="top" title="Turn this card if you did not go into or failed the test in room 13.">
-                </div>
-                <div class="col-sm-12 col-lg-2 pb-3">
-                        <img id="mule" src="./itens/cards/card.png" alt="lik to card drawer" class="card-img-top img-fluid" onclick="mule()" data-toggle="tooltip" data-placement="top" title="Turn this card if you did not go into or failed the test in room 14.">
-                    </div>
-                <div class="col-sm-12 col-lg-2">
-                        <img id="stamper" src="./itens/cards/card.png" alt="lik to card drawer" class="card-img-top img-fluid" onclick="stamper()" data-toggle="tooltip" data-placement="top" title="Turn this card if you did not go into or failed the test in room 15.">
-                </div>
+                <div class="col-12 tab-pane text-white p-5 card" id="escape">
+                    <h3><i class="bi bi-exclamation-square"></i> Escape</h3></a>
+                    <p>Test INT against 9 or INT + Furtivity against 7. If you succeed, you escape unscathered bot waste 24 hours until being able to go back into the house, if possible. </p>
+                    
+                    <div class="card-body text-center text-white">
+                    <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Click to test."><a class="a-grey" href="#drawers"><i class="bi bi-exclamation-square"></i></a></button>
+                <button type="button" class="btn btn-success"><a class="a-grey" href="exit.html"><i class="bi bi-emoji-smile"></i><i class="bi bi-plus-circle"></i></a></button>
+                <button type="button" class="btn btn-warning"><a class="a-grey" data-toggle='tab' href="#fail"><i class="bi bi-dash-square"></i></a></button>
+                <button type="button" class="btn btn-danger"><a class="a-grey" data-toggle='tab' href="#sadmask"><i class="bi bi-emoji-frown"></i></a></button>
+            </div>
                 </div></div>
-                <div class="container" id="drawers">
-                    <div class="row justify-content-center folder mb-4">               
-                        <div class="col-lg-3 self-align-start py-5 px-2"><br><br>
-                            <img class="img-fluid" src="../img/combat.jpg" alt="combat"> 
-                        </div><div class="col-lg-1"></div>
-                        <div class="col-lg-3 py-5 px-2"><br><br>
-                                <div class="col-12 embed-responsive embed-responsive-1by1">
+                </div>
+                <div class="container my-5" id="drawers">
+                    <div class="row justify-content-center">               
+                        <div class="col-lg-4 container p-0 m-0">
+                            <img class="img-fluid" src="../img/folderdown.jpg" alt="folder">
+                            <div class="top">
+                                <i class="bi bi-emoji-smile"></i> Everytime you get a happy face in a test, you get an extra hour for the mission.
+                            <br><i class="bi bi-plus-circle"></i> Success, proceed with the action.
+                            </div>
+                        </div> 
+                        <div class="col-lg-4 container p-0 m-0">
+                            <img class="img-fluid" src="../img/folderup.jpg" alt="folder">
+                            <div class="centered">
+                                <div class="embed-responsive embed-responsive-1by1">
                                     <iframe name="draw" class="embed-responsive-item" scrolling="no" src="https://elianebettocchi.github.io/drawers/numerals.html"></iframe>
                                     <br><br><br><br><br><br><br><br><br>
-                                </div></div>
-                                <div class="col-lg-1"></div>
-                                <div class="col-lg-3 self-align-start py-5 px-2"><br><br>
-                                    <img class="img-fluid" src="../img/magic.jpg" alt="combat">
+                                </div></div></div>
+                                <div class="col-lg-4 m-0 p-0">
+                                    <img class="img-fluid" src="../img/folderdown.jpg" alt="folder">
+                                    <div class="top">
+                                    <i class="bi bi-dash-square"></i> If you failed the test look for another way to proceed.
+                            <br><i class="bi bi-emoji-frown"></i> You get arrested for 72 hours until Dr. Van Helsing shows up and bails you out.
+                            
                                 </div>    
-                            </div>
+                            </div></div></div>
         </div>
             <footer>
-                <div class="container-fluid bg-dark text-center py-3">
+                <div class="container-fluid div-black text-center py-3">
                     <div class="row align-items-end small">
             <div class="col-12">
                 Incorporeal LudoNarratives © 2008 by Eliane Bettocchi & Carlos Klimick is licensed under CC BY-NC-SA 4.0.

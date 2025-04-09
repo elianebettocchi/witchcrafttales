@@ -79,6 +79,24 @@ text-align: center;
     background-image: url("./img/fundo.jpg");
 	background-repeat: repeat;
 }
+.vanhelsing{
+    background-image: url("./img/paper.jpg");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: scroll;
+    background-size: cover;
+    font-family: 'Caveat', Times New Roman, Times, serif;
+	font-size: 20px;
+}
+.you{
+    background-image: url("./img/paper.jpg");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: scroll;
+    background-size: cover;
+    font-family: 'Handlee', Times New Roman, Times, serif;
+	font-size: 20px;
+}
 .folderdown{
     background-image: url("./img/folderdown.jpg");
     background-repeat: no-repeat;

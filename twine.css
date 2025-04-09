@@ -87,6 +87,7 @@ text-align: center;
     background-size: cover;
     font-family: 'Caveat', Times New Roman, Times, serif;
 	font-size: 20px;
+    color: black;
 }
 .you{
     background-image: url("./img/paper.jpg");
@@ -96,6 +97,7 @@ text-align: center;
     background-size: cover;
     font-family: 'Handlee', Times New Roman, Times, serif;
 	font-size: 20px;
+    color: black;
 }
 .folderdown{
     background-image: url("./img/folderdown.jpg");

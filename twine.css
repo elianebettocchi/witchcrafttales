@@ -54,6 +54,7 @@ a:hover{
 .btn{
     width: auto;
     margin: 2px;
+    color: black;
 }
 .card{
 	background-color: rgb(0,0,0,0.7);

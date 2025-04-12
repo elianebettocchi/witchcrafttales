@@ -43,6 +43,7 @@ a:hover{
 }
 button:hover{
     background-color: grey;
+    border-color: yellow;
 }
 .dark {
     font-size: 100%;
@@ -52,7 +53,7 @@ button:hover{
     width: 100%;
     color: white;
     border: white 1px solid;
-    background-color: rgb(0,0,0,0.5);
+    background-color: rgb(0,0,0,0.7);
 }
 .btn{
     width: auto;

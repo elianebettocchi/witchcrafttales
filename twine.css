@@ -47,7 +47,7 @@ button:hover{
 }
 .dark {
     font-size: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Garamond', Courier, monospace;
     font-weight: bold;
     width: 100%;

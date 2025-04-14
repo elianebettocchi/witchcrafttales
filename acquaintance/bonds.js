@@ -1,13 +1,13 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('roles').addEventListener('click', function () {
-        let drawValue = Math.floor(Math.random() * 16)
+        let drawValue = Math.floor(Math.random() * 15)
         document.getElementById('roles').src = `./npcs/${drawValue}.png`
 
     })
 
     addEventListener('click', function () {
-        allDraws = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        allDraws = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     })
 })
 var x = document.getElementById("myAudio"); 

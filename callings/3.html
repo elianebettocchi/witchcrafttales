@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill and Download Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="3.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+
+        <!-- Target module captured for transparent generation -->
+        <div id="captureArea" class="form-container">
+            
+            <!-- Dropdown Selection -->
+             <div id="mp" class="absolute-field">
+                <select id="valor" name="valor" class="invisible-input" required>
+                    <option value="" disabled selected hidden></option> 
+                    <option value="0">0</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div id="valor" class="absolute-field">
+                <select id="valor" name="valor" class="invisible-input" required>
+                    <option value="" disabled selected hidden></option> 
+                    <option value="compassion">compassion</option>
+                    <option value="generosity">generosity</option>
+                    <option value="humility">humility</option>
+                    <option value="iniciative">iniciative</option>
+                    <option value="selfconfidence">selfconfidence</option>
+                    <option value="serenity">serenity</option>
+                </select>
+            </div>
+             <div id="desvalor" class="absolute-field">
+                <select id="desvalor" name="desvalor" class="invisible-input" required>
+                    <option value="" disabled selected hidden></option> 
+                    <option value="arrogance">arrogance</option>
+                    <option value="envy">envy</option>
+                    <option value="greed">greed</option>
+                    <option value="indecision">indecision</option>
+                    <option value="sloth">sloth</option>
+                    <option value="vice">vice</option>
+                    <option value="wrath">wrath</option>
+                </select>
+            </div>
+
+            <!-- Text Input -->
+            <div id="nome" class="absolute-field">
+                <input type="text" id="nome" name="nome" class="invisible-input" required>
+            </div> 
+            <div id="other" class="absolute-field">
+                <input type="text" id="other" name="other" class="invisible-input" required>
+            </div>
+
+             <!-- Radio Input -->
+            <div id="status" class="absolute-field">
+                <input type="radio" id="slave" name="status" class="invisible-input" required>
+                <input type="radio" id="labor" name="status" class="invisible-input" required>
+                <input type="radio" id="burgeoise" name="status" class="invisible-input" required>
+                <input type="radio" id="aristocrat" name="status" class="invisible-input" required>
+                <input type="radio" id="high aristocrat" name="status" class="invisible-input" required>
+            </div>
+        </div>
+        <!-- The control button is linked seamlessly to the HTML form structure above -->
+        <div class="control-panel">
+             <button id="download-btn">Download Card</button>
+        </div>
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
